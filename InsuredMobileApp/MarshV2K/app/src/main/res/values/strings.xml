@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MarshV2K</string>
+    <string name="aws_region">us-east-1</string>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Background"
+    tools:context=".FileAClaim">
+
+
+    <com.amazonaws.mobileconnectors.lex.interactionkit.ui.InteractiveVoiceView
+        android:id="@+id/voiceInterface"
+        layout="@layout/voice_component"
+        android:layout_width="77dp"
+        android:layout_height="84dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="How can I help you?"
+        android:textSize="50dp"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="284dp"
+        android:layout_height="79dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter msg here"
+        android:background="@android:color/white"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="616dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="408dp" />
+</android.support.constraint.ConstraintLayout>
+
