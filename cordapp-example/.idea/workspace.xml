@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8007d15d-4132-4a87-a733-369f7f2fc9b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/FNOLContract.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/datamodel/partyView.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/FNOLSchema.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/FNOLState.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-java/src/main/java/com/example/flow/CreateFNOL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/CreateFNOLFlow.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/UpdateFNOLFlow.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/CreateFlowTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/UpdateFlowTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/IOUState.kt" beforeDir="false" afterPath="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/IOUState.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/ExampleFlow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/ExampleFlow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/contract/IOUContractTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/contract/IOUContractTests.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/IOUFlowTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/IOUFlowTests.kt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/clients/.gradle/" />
+    <ignored path="$PROJECT_DIR$/clients/build/" />
+    <ignored path="$PROJECT_DIR$/clients/out/" />
+    <ignored path="$PROJECT_DIR$/contracts-java/.gradle/" />
+    <ignored path="$PROJECT_DIR$/contracts-java/build/" />
+    <ignored path="$PROJECT_DIR$/contracts-java/out/" />
+    <ignored path="$PROJECT_DIR$/contracts-kotlin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/contracts-kotlin/build/" />
+    <ignored path="$PROJECT_DIR$/contracts-kotlin/out/" />
+    <ignored path="$PROJECT_DIR$/workflows-java/.gradle/" />
+    <ignored path="$PROJECT_DIR$/workflows-java/build/" />
+    <ignored path="$PROJECT_DIR$/workflows-java/out/" />
+    <ignored path="$PROJECT_DIR$/workflows-kotlin/.gradle/" />
+    <ignored path="$PROJECT_DIR$/workflows-kotlin/build/" />
+    <ignored path="$PROJECT_DIR$/workflows-kotlin/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/FNOLState.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+              <folding>
+                <element signature="e#27#711#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/FNOLContract.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/datamodel/partyView.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="e#31#139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/CreateFNOLFlow.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="75" column="94" selection-start-line="75" selection-start-column="94" selection-end-line="75" selection-end-column="94" />
+              <folding>
+                <element signature="e#26#698#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/CreateFlowTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="714">
+              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+              <folding>
+                <element signature="e#31#757#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/UpdateFNOLFlow.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-229">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+              <folding>
+                <element signature="e#26#740#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.paralleluniverse/quasar-core/0.7.10/859c7790c5378fcebbc22bdb25eb8346fa96ec68/quasar-core-0.7.10-sources.jar!/co/paralleluniverse/fibers/Fiber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-955">
+              <caret line="805" selection-start-line="805" selection-end-line="805" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/UpdateFlowTest.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+              <folding>
+                <element signature="e#31#589#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/FNOLSchema.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="829">
+              <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+              <folding>
+                <marker date="1554647754180" expanded="true" signature="1910:2064" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>initiat</find>
+      <find>Iou</find>
+      <find>init</find>
+      <find>fnolState</find>
+      <find>FNOLState</find>
+      <find>Organiz</find>
+      <find>MutualLi</find>
+      <find>otherLicense</find>
+      <find>partyViews</find>
+      <find>Mutual</find>
+      <find>Generating</find>
+      <find>list</find>
+      <find>me</find>
+      <find>me</find>
+      <find>List</find>
+      <find>query</find>
+      <find>updatefnol</find>
+      <find>FnolState</find>
+      <find>LocalDate</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/IOUState.kt" />
+        <option value="$PROJECT_DIR$/contracts-java/src/main/java/com/example/schema/FNOLSchemaV1.java" />
+        <option value="$PROJECT_DIR$/contracts-java/src/main/java/com/example/schema/FNOLSchema.java" />
+        <option value="$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/FNOLContract.java" />
+        <option value="$PROJECT_DIR$/workflows-java/src/main/java/com/example/flow/CreateFNOL.java" />
+        <option value="$PROJECT_DIR$/contracts-java/src/main/java/com/example/state/FNOLState.java" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/IOUSchema.kt" />
+        <option value="$PROJECT_DIR$/workflows-kotlin/build.gradle" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/datamodel/fnolParty.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/datamodel/partyView.kt" />
+        <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/CreateFNOLFlow.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/FNOLState.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/FNOLSchema.kt" />
+        <option value="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/FNOLContract.kt" />
+        <option value="$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/UpdateFNOLFlow.kt" />
+        <option value="$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/UpdateFlowTest.kt" />
+        <option value="$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/CreateFlowTest.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1317" />
+    <option name="height" value="831" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="contract" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cordapp-example" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cordapp-example" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="workflows-kotlin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554649922283" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.test.flow" />
+      <recent name="com.example.flow" />
+      <recent name="com.example.datamodel" />
+      <recent name="com.example.contract" />
+      <recent name="com.example.state" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.UpdateFlowTest">
+    <configuration name="CreateFlowTest.flow Creates FNOL between Helen (carrier A) and Matt " type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.example.workflows-kotlin.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.test.flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.test.flow" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test.flow.CreateFlowTest" />
+      <option name="METHOD_NAME" value="flow Creates FNOL between Helen (carrier A) and Matt (carrier B)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -javaagent:../lib/quasar.jar" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateFlowTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.example.workflows-kotlin.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.test.flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.test.flow" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test.flow.UpdateFlowTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="VM_PARAMETERS" value="-ea -javaagent:../lib/quasar.jar" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateFlowTest.flow Creates FNOL between Helen (carrier A) and Matt " type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.example.workflows-kotlin.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.test.flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.test.flow" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test.flow.UpdateFlowTest" />
+      <option name="METHOD_NAME" value="flow Creates FNOL between Helen (carrier A) and Matt (carrier B)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -javaagent:../lib/quasar.jar" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UpdateFlowTest.flow Updates FNOL between Helen (carrier A) and Matt " type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.example.workflows-kotlin.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.test.flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.test.flow" />
+      <option name="MAIN_CLASS_NAME" value="com.example.test.flow.UpdateFlowTest" />
+      <option name="METHOD_NAME" value="flow Updates FNOL between Helen (carrier A) and Matt (carrier B)" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -javaagent:../lib/quasar.jar" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Run Example Cordapp - Java" />
+      <item itemvalue="Gradle.Unit tests" />
+      <item itemvalue="JUnit.Run Contract Tests - Java" />
+      <item itemvalue="JUnit.Run Contract Tests - Kotlin" />
+      <item itemvalue="JUnit.Run Flow Tests - Java" />
+      <item itemvalue="JUnit.Run Flow Tests - Kotlin" />
+      <item itemvalue="JUnit.Run Integration Tests - Java" />
+      <item itemvalue="JUnit.Run Integration Tests - Kotlin" />
+      <item itemvalue="JUnit.CreateFlowTest.flow Creates FNOL between Helen (carrier A) and Matt " />
+      <item itemvalue="JUnit.UpdateFlowTest" />
+      <item itemvalue="JUnit.UpdateFlowTest.flow Creates FNOL between Helen (carrier A) and Matt " />
+      <item itemvalue="JUnit.UpdateFlowTest.flow Updates FNOL between Helen (carrier A) and Matt " />
+      <item itemvalue="Kotlin.Run Example Cordapp - Kotlin" />
+      <item itemvalue="Remote.Debug CorDapp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UpdateFlowTest" />
+        <item itemvalue="JUnit.UpdateFlowTest.flow Updates FNOL between Helen (carrier A) and Matt " />
+        <item itemvalue="JUnit.UpdateFlowTest.flow Creates FNOL between Helen (carrier A) and Matt " />
+        <item itemvalue="JUnit.CreateFlowTest.flow Creates FNOL between Helen (carrier A) and Matt " />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8007d15d-4132-4a87-a733-369f7f2fc9b0" name="Default Changelist" comment="" />
+      <created>1554573027745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554573027745</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UpdateFlowTest - 2019.04.07 at 09h 59m 14s.xml">
+      <configuration name="UpdateFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateFlowTest - 2019.04.07 at 10h 02m 04s.xml">
+      <configuration name="UpdateFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateFlowTest - 2019.04.07 at 10h 04m 40s.xml">
+      <configuration name="UpdateFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateFlowTest_flow_Updates_FNOL_between_Helen_(carrier_A)_and_Matt_ - 2019.04.07 at 10h 07m 40s.xml">
+      <configuration name="UpdateFlowTest.flow Updates FNOL between Helen (carrier A) and Matt " configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateFlowTest - 2019.04.07 at 10h 07m 40s.xml">
+      <configuration name="UpdateFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateFlowTest - 2019.04.07 at 10h 11m 36s.xml">
+      <configuration name="UpdateFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateFlowTest - 2019.04.07 at 10h 12m 32s.xml">
+      <configuration name="UpdateFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateFlowTest_flow_Updates_FNOL_between_Helen_(carrier_A)_and_Matt_ - 2019.04.07 at 10h 13m 49s.xml">
+      <configuration name="UpdateFlowTest.flow Updates FNOL between Helen (carrier A) and Matt " configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateFlowTest - 2019.04.07 at 10h 13m 56s.xml">
+      <configuration name="UpdateFlowTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UpdateFlowTest - 2019.04.07 at 10h 37m 13s.xml">
+      <configuration name="UpdateFlowTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1317" height="831" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2807843" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.31529093" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="2" weight="0.16779432" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32882273" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.33829498" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.3991881" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Gradle" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Learn" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.2807843" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.31529093" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="2" weight="0.16779432" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.32882273" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.33829498" />
+      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.3991881" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Gradle" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/UpdateFNOLFlow.kt</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/NodeRPCConnection.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/MainController.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-982" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/src/main/kotlin/com/example/server/Server.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/clients/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="75" column="29" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/build/nodes/PartyA/node.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/FNOLContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-java/src/main/java/com/example/schema/IOUSchemaV1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/IOUContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="62" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-java/src/main/java/com/example/state/IOUState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="47" column="18" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-java/src/main/java/com/example/schema/FNOLSchema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-java/src/main/java/com/example/schema/FNOLSchemaV1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-java/src/main/java/com/example/contract/FNOLContract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-java/src/integrationTest/java/com/example/DriverBasedTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-java/src/main/java/com/example/flow/ExampleFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="76" column="11" selection-end-line="156" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-java/src/main/java/com/example/flow/CreateFNOL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="619">
+          <caret line="156" selection-end-line="156" />
+          <folding>
+            <element signature="e#0#7231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-java/src/main/java/com/example/state/FNOLState.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-java/src/main/java/com/example/schema/IOUSchema.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/NodeDriver.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/integrationTest/kotlin/com/example/DriverBasedTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/IOUContract.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/datamodel/fnolParty.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="11" lean-forward="true" selection-end-line="55" />
+          <folding>
+            <element signature="e#31#185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="113" column="43" selection-start-line="113" selection-start-column="43" selection-end-line="113" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/IOUFlowTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/IOUSchema.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/ExampleFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="95" column="128" selection-start-line="86" selection-start-column="12" selection-end-line="95" selection-end-column="128" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-node/4.0/399beb517b103cffe608c284c4e304afccf162a3/corda-node-4.0-sources.jar!/net/corda/node/services/statemachine/FlowStateMachineImpl.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="265" selection-start-line="265" selection-end-line="265" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/co.paralleluniverse/quasar-core/0.7.10/859c7790c5378fcebbc22bdb25eb8346fa96ec68/quasar-core-0.7.10-sources.jar!/co/paralleluniverse/fibers/Fiber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-955">
+          <caret line="805" selection-start-line="805" selection-end-line="805" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/FNOLState.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="48" column="40" selection-start-line="48" selection-start-column="40" selection-end-line="48" selection-end-column="40" />
+          <folding>
+            <element signature="e#27#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/schema/FNOLSchema.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="74" column="16" selection-start-line="74" selection-start-column="16" selection-end-line="74" selection-end-column="16" />
+          <folding>
+            <marker date="1554647754180" expanded="true" signature="1910:2064" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/contract/FNOLContract.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/datamodel/partyView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+          <folding>
+            <element signature="e#31#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/UpdateFNOLFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="e#26#740#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/CreateFlowTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+          <folding>
+            <element signature="e#31#757#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/test/kotlin/com/example/test/flow/UpdateFlowTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="39" column="36" selection-start-line="39" selection-start-column="36" selection-end-line="39" selection-end-column="36" />
+          <folding>
+            <element signature="e#31#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contracts-kotlin/src/main/kotlin/com/example/state/IOUState.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workflows-kotlin/src/main/kotlin/com/example/flow/CreateFNOLFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="75" column="94" selection-start-line="75" selection-start-column="94" selection-end-line="75" selection-end-column="94" />
+          <folding>
+            <element signature="e#26#698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>cordapp-example</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

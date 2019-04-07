@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clients/com.example.clients.iml" filepath="$PROJECT_DIR$/.idea/modules/clients/com.example.clients.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clients/com.example.clients.main.iml" filepath="$PROJECT_DIR$/.idea/modules/clients/com.example.clients.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/clients/com.example.clients.test.iml" filepath="$PROJECT_DIR$/.idea/modules/clients/com.example.clients.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contracts-java/com.example.contracts-java.iml" filepath="$PROJECT_DIR$/.idea/modules/contracts-java/com.example.contracts-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contracts-java/com.example.contracts-java.main.iml" filepath="$PROJECT_DIR$/.idea/modules/contracts-java/com.example.contracts-java.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contracts-java/com.example.contracts-java.test.iml" filepath="$PROJECT_DIR$/.idea/modules/contracts-java/com.example.contracts-java.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contracts-kotlin/com.example.contracts-kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/contracts-kotlin/com.example.contracts-kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contracts-kotlin/com.example.contracts-kotlin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/contracts-kotlin/com.example.contracts-kotlin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/contracts-kotlin/com.example.contracts-kotlin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/contracts-kotlin/com.example.contracts-kotlin.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.example.cordapp-example.iml" filepath="$PROJECT_DIR$/.idea/modules/com.example.cordapp-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.example.cordapp-example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.example.cordapp-example.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.example.cordapp-example.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.example.cordapp-example.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workflows-java/com.example.workflows-java.iml" filepath="$PROJECT_DIR$/.idea/modules/workflows-java/com.example.workflows-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workflows-java/com.example.workflows-java.integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/workflows-java/com.example.workflows-java.integrationTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workflows-java/com.example.workflows-java.main.iml" filepath="$PROJECT_DIR$/.idea/modules/workflows-java/com.example.workflows-java.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workflows-java/com.example.workflows-java.test.iml" filepath="$PROJECT_DIR$/.idea/modules/workflows-java/com.example.workflows-java.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workflows-kotlin/com.example.workflows-kotlin.iml" filepath="$PROJECT_DIR$/.idea/modules/workflows-kotlin/com.example.workflows-kotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workflows-kotlin/com.example.workflows-kotlin.integrationTest.iml" filepath="$PROJECT_DIR$/.idea/modules/workflows-kotlin/com.example.workflows-kotlin.integrationTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workflows-kotlin/com.example.workflows-kotlin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/workflows-kotlin/com.example.workflows-kotlin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/workflows-kotlin/com.example.workflows-kotlin.test.iml" filepath="$PROJECT_DIR$/.idea/modules/workflows-kotlin/com.example.workflows-kotlin.test.iml" />
+    </modules>
+  </component>
+</project>
