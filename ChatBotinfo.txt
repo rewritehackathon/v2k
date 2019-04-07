@@ -1,0 +1,13 @@
+AWS Chat Bot
+
+Bot Name: FileaClaim
+Bot Version: 2
+Alias: Final
+
+
+Insurance Carrier Code: 
+Carrier folder
+
+Mobile app
+
+
